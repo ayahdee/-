@@ -1,20 +1,10 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-MEDIA-SEQUENCE:355
-#EXT-X-ALLOW-CACHE:YES
-#EXT-X-TARGETDURATION:10
-#EXTINF:10.000000,
-http://perfecttv.net:8080/live/Perfecttv/Perfecttv/3.ts
-#EXTINF:10.000000,
-http://perfecttv.net:8080/live/Perfecttv/Perfecttv/3.ts
-#EXTINF:10.000000,
-http://perfecttv.net:8080/live/Perfecttv/Perfecttv/3.ts
-#EXTINF:10.000000,
-http://perfecttv.net:8080/live/Perfecttv/Perfecttv/3.ts
-#EXTINF:10.000000,
-http://perfecttv.net:8080/live/Perfecttv/Perfecttv/3.ts
-#EXTINF:10.000000,
-http://perfecttv.net:8080/live/Perfecttv/Perfecttv/3.ts
+#EXT-X-TARGETDURATION:3
+#EXT-X-MEDIA-SEQUENCE:2
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+#EXTINF:1,
+http://perfecttv.net:8080/Perfecttv/Perfecttv/3
 
 
 
